@@ -1,0 +1,32 @@
+.mainDiv {
+  min-width: 300px;
+  text-align: center;
+}
+h3 {
+  color: rgb(59, 45, 45);
+}
+.btn {
+  padding: 5px 8px;
+  margin: 8px;
+  border-radius: 8px;
+  background-color: rgb(248, 231, 237);
+  color: black;
+  border: none;
+  outline: none;
+}
+.btn:hover {
+  background-color: rgb(240, 196, 237);
+  cursor: pointer;
+}
+.Selected_box {
+  position: relative;
+}
+
+#color {
+  width: 33px;
+  height: 18px;
+  border-radius: 10px;
+  display: none;
+  position: absolute;
+  left: 11%;
+}
